@@ -1,0 +1,3 @@
+"0","rating <- scrape(session) %>% html_nodes(""span.ipc-rating-star--rating"") %>% html_text"
+"0","tv_rating <- as.data.frame(rating [1:50])"
+"0","tv_rating"

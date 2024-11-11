@@ -1,0 +1,7 @@
+"0","tv_years <- scrape(session) %>% html_nodes(""span.sc-5bc66c50-6.OOdsw"") %>% html_text"
+"0","clyear <- gsub("".*?(\\d{4}(-\\d{4})?).*"", ""\\1"", tv_years)"
+"0","yeartv <- str_extract(tv_years, ""\\b\\d{4}(-\\d{4})?\\b"")"
+"0","yeartv <- as.numeric(yeartv)"
+"0","yeartv <- yeartv[!is.na(yeartv)]"
+"0","tv_year_of_air <- as.data.frame(yeartv[1:25])"
+"0","tv_year_of_air"
