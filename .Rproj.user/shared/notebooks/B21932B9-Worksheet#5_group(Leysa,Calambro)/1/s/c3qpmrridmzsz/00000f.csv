@@ -1,3 +1,0 @@
-"0","tv_votes <- scrape(session) %>% html_nodes(""span.ipc-rating-star--voteCount"") %>% html_text"
-"0","total_tv_votes <- as.data.frame(tv_votes[1:50])"
-"0","total_tv_votes"

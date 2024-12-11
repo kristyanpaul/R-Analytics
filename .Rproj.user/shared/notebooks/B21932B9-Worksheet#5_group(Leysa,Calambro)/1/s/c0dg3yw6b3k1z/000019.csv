@@ -1,7 +1,0 @@
-"0","episodes <- scrape(session) %>% html_nodes(""span.sc-5bc66c50-6.OOdsw"") %>% html_text"
-"0","cl_episodes <- gsub(""\\D"", """", episodes)"
-"0","cleaned_ep <- str_extract(episodes, ""\\d+(?=\\s*eps)"")"
-"0","cleaned_ep <- as.numeric(cleaned_ep)"
-"0","cleaned_ep <- cleaned_ep[!is.na(cleaned_ep)]"
-"0","cleaned_episodes <- as.data.frame(cleaned_ep[1:25])"
-"0","cleaned_episodes"

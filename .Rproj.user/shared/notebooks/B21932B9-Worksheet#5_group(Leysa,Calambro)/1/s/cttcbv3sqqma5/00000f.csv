@@ -1,7 +1,0 @@
-"0","class(title_lists)"
-"1","[1]"
-"1"," ""character"""
-"1","
-"
-"0","title_List <- as.data.frame(title_lists[2:51])"
-"0","title_List"

@@ -1,3 +1,0 @@
-"0","final_data <- cbind(split_df,tv_rating,cleaned_episodes,tv_year_of_air)"
-"0","colnames(final_data) <- c(""Ranks"", ""TV Rating"", ""Number of Votes"", ""Number of Episodes"", ""Year Released"")"
-"0","final_data"
